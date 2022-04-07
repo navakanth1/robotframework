@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.7.9 on win32)" generated="20220407 09:43:19.609" rpa="false" schemaversion="3">
+<suite id="s1" name="Login1" source="C:\Users\navak\08\03\today10032022\robot_framework\Tests\Facebook\FunctionalTestsuite\Login1.robot">
+<test id="s1-t1" name="Login Screen Test" line="9">
+<kw name="Log" library="BuiltIn">
+<arg>Hello</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220407 09:43:19.644" level="INFO">Hello</msg>
+<status status="PASS" starttime="20220407 09:43:19.643" endtime="20220407 09:43:19.644"/>
+</kw>
+<doc>this is login screen</doc>
+<tag>users</tag>
+<status status="PASS" starttime="20220407 09:43:19.643" endtime="20220407 09:43:19.644"/>
+</test>
+<test id="s1-t2" name="Registration Screen Test" line="15">
+<kw name="Log" library="BuiltIn">
+<arg>Success</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20220407 09:43:19.647" level="INFO">Success</msg>
+<status status="PASS" starttime="20220407 09:43:19.647" endtime="20220407 09:43:19.647"/>
+</kw>
+<doc>this is for registration</doc>
+<tag>users</tag>
+<status status="PASS" starttime="20220407 09:43:19.646" endtime="20220407 09:43:19.648"/>
+</test>
+<status status="PASS" starttime="20220407 09:43:19.611" endtime="20220407 09:43:19.651"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">users</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Login1">Login1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
